@@ -110,9 +110,8 @@ const Dashboard: React.FC = () => {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         <div className={`
           ${isPortfolioFullScreen 
-            ? 'fixed inset-0 z-50 bg-slate-900 p-8 flex flex-col' 
-            : 'xl:col-span-2 bg-slate-800/50 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl h-[400px] flex flex-col'}
-          transition-all duration-300 relative
+            ? 'fixed inset-0 z-[100] bg-slate-900 p-8 flex flex-col' 
+            : 'xl:col-span-2 bg-slate-800/50 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl h-[400px] flex flex-col relative transition-all duration-300'}
         `}>
           <div className="flex justify-between items-center mb-6">
             <div className="flex items-center gap-2">

@@ -157,9 +157,9 @@ const MarketChart: React.FC = () => {
   return (
     <div className={`
       ${isFullScreen 
-        ? 'fixed inset-0 z-50 bg-slate-900 p-8' 
-        : 'bg-slate-800/50 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl h-full'} 
-      flex flex-col transition-all duration-300 animate-fade-in relative
+        ? 'fixed inset-0 z-[100] bg-slate-900 p-8' 
+        : 'bg-slate-800/50 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl h-full relative transition-all duration-300'} 
+      flex flex-col animate-fade-in
     `}>
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>
